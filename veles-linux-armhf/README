@@ -1,0 +1,45 @@
+ ____   ____     .__                _________                       
+_\___\_/___/____ |  |   ____   _____\_   ___ \  ___________   ____  
+\___________/__ \|  | _/ __ \ /  ___/    \  \/ /  _ \_  __ \_/ __ \ 
+   \  Y  /\  ___/|  |_\  ___/ \___ \\     \___(  <_> )  | \/\  ___/ 
+    \___/  \___  >____/\___  >____  >\______  /\____/|__|    \___  >
+               \/          \/     \/        \/                   \/ 
+
+This is Veles Core Raspberry-PI Linux release (arm-linux-gnueabihf).
+
+
+## About Veles
+Veles Core is innovative cryptocurrency supporting multiple 
+PoW algorithms, with unique dynamic block reward system. 
+Main goal of the project is to implement decentralised VPN solution 
+to protect privacy and anonymity of Internet users around the globe.
+
+
+## Installation
+To install, enter directory containing this README file and simply 
+run following command:
+
+make install
+
+This will perform standard installation including Veles Core
+command-line and graphical interfaces, manual pages 
+and desktop icon.
+
+Alternative modes of installation:
+make install-cli	Installs daemon and command-line client only
+make install-gui	Installs only graphical interface, no daemon
+
+
+## License
+Veles Core is released under the terms of the MIT license. 
+See COPYING for more information or see 
+https://opensource.org/licenses/MIT.
+
+
+## Further information
+For more information on Veles Core, please visit our website
+or our github page at:
+https://veles.network
+https://github.com/velescore/veles
+
+
