@@ -1,0 +1,31 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+615d4089f85aea584273378df68d9287f540ee28  veles-0.17.1-win64-setup.exe
+9743bcc26a80c718bca9bb2518e0feb89b316719  veles-amd64.deb
+a27e93496b5ece0fcb34431381100fe50f4d917e  veles-linux-amd64.tar.gz
+463dabb33f1251195b500525db5fcd6f5139dcde  veles-qt-amd64.deb
+89caf9e2d44dca8ee142c519e875db52ccc1fd74  veles-tx-amd64.deb
+250ee581865a858d6fc035bd92bd3706f6bdc720  veles.deb
+d15628471aa235f657c68f3dccfd35f1dd51a2c8  velesLinux.tar.gz
+3c81e82991f7925ad16d09e8310d4996bc818c7d  velesMac.zip
+ce99045050f6d3f36257bbd831055e23160209b8  velesRaspi.tar.gz
+0f0be26d78eaf69ed72964f28c6503922942c09b  velesWin32.zip
+1d20790d1c4374ab2b0d65dd0c94f83c348eb1d6  velesWin64.zip
+ea72c42cb5923e5e1f6f1170073626dd786ec2e6  velesd-amd64.deb
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEE9hI3Xw3tca/KxtA5AMsOXf7BOxUFAlx0kjUACgkQAMsOXf7B
+OxUEUQ/9Hkn+upUh1VRmF2VSWmdeaoyjdAr3t4cnFY48AO/LrbdTo5p+ZlFkL7NV
+GleWCDD4Fmkmt5/NJuutls3iMQ6yWaeVXrhBZ/g911ZuUiTPdbXjp3VuelqFae+V
+bzfN0AbMtzo4rRsPsqp9sA6MaBlr6tg8/gMEdosvTA7szrimiouw4lcLeOIVZ+Lb
+chRLPPcICBAyn1CE25U41JsqVu0XaGcbFjh4CAgJC3pdFInJzbcVzwZ/yXaUl8jR
+85MWaOXMNhuNW1wmrvSTx3Alh16m+j4nxsgz5bTKvTs9dyev7MY5WbmP9FtLCzad
+n9ngWoiNSGg/FibxIA4x+BtosjV1wGVz+ZrNgtDnDhf1wsZQuU0OxmNJr8zoKdFG
+5hiSe0EfMs/S+dn3trsyMZ69XoySJw9rgtFrp96ffQw8cVYMReXPgJXHBg6zSyPn
+ydMXYnQI0v/fj94XV3gVdLCGiRB4zXpyTFONIdbLYLijKWuFw5nhUK9zdjaU53Lg
+uYOyxxJLg1c8XEELavnbLcpsw3+SyCQs6rwgYFhD2XCFM2EZdnIvuODkFBkaSRTP
+ZnBfo9F/WDU/paauQ7miKkdMYiFk2sqZnPXvirU0jAyv8Gl82SKwjd1kPTc/LLDa
+d3vJSqwCQNLdVyXGH/RHu8RYhuvFrbZF6y3z57ATzJ2T1KDKHmU=
+=pkr7
+-----END PGP SIGNATURE-----
