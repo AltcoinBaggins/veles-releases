@@ -1,8 +1,12 @@
 615d4089f85aea584273378df68d9287f540ee28  veles-0.17.1-win64-setup.exe
 5c36651815955e82a95ee728dd8db3c1058a1bab  veles-amd64.deb
-f3dd059023a5241902493109469075cf60c53f21  veles-linux-amd64.tar.gz
+b2caacf23b3b6e99f5512998e0a2fae0b3a11f19  veles-armhf.deb
+d5c04cd74e0fdc58e35a4cc714b9ea53ce7a1c84  veles-linux-amd64.tar.gz
+9950746972d80a84ede3530caef62530a04381d3  veles-linux-armhf.tar.gz
 ae3efaa2069ba6599f2df5d35082ed6b116c5711  veles-qt-amd64.deb
+53bbc39eb773f77336cd5e25f2fcb7f3a858093a  veles-qt-armhf.deb
 bd61598d57f6710e0b4d35a6f49d94b95a3f00c0  veles-tx-amd64.deb
+884b5c651563e04cd53185706822f4a8d800be88  veles-tx-armhf.deb
 250ee581865a858d6fc035bd92bd3706f6bdc720  veles.deb
 d15628471aa235f657c68f3dccfd35f1dd51a2c8  velesLinux.tar.gz
 3c81e82991f7925ad16d09e8310d4996bc818c7d  velesMac.zip
@@ -10,3 +14,4 @@ ce99045050f6d3f36257bbd831055e23160209b8  velesRaspi.tar.gz
 0f0be26d78eaf69ed72964f28c6503922942c09b  velesWin32.zip
 1d20790d1c4374ab2b0d65dd0c94f83c348eb1d6  velesWin64.zip
 a73bac468ce0bcfe28c4f616c0f94f556cd984e3  velesd-amd64.deb
+b4757207ee249cf1394f71a732e3d6071b53bd6d  velesd-armhf.deb

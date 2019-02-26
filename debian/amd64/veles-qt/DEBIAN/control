@@ -1,8 +1,8 @@
 Package: veles-qt
-Architecture: amd64
 Homepage: https://veles.network
 Maintainer: Altcoin Baggins <velesdevs@protonmail.com>
 Priority: optional
 Section: util
 Description: Veles Core Qt desktop client.
-Version: 0.17.1.0
+Version: 0.17.1
+Architecture: armhf

@@ -1,9 +1,9 @@
 Package: veles
-Architecture: amd64
 Homepage: https://veles.network
 Maintainer: Altcoin Baggins <velesdevs@gmail.com>
 Priority: optional
 Section: util
 Description: Veles Core daemon and GUI
 Depends: velesd, veles-qt
-Version: 0.17.1.0
+Version: 0.17.1
+Architecture: armhf
