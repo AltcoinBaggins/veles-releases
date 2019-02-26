@@ -1,5 +1,7 @@
 60dbebc7b74c7c1f0c8121e2411c27194d85d3fd  veles-0.17.1-amd64.deb
 170e6ee7a53ef96723b6d927b43f595131e79acf  veles-0.17.1-armhf.deb
+01864da4334156e58b6e6c22aee950f0c09897f8  veles-0.17.1-debian-ubuntu-amd64.tar.gz
+85407e7b0fe5f5d0ec110401793a96ab3e1891e8  veles-0.17.1-generic-linux-amd64.tar.gz
 7e0a9457cda4b7a647ab3ddd931d54f57a773002  veles-0.17.1-linux-amd64.tar.gz
 8b6411325b5234d3ebfd8791c290f4ed86d515df  veles-0.17.1-linux-armhf.tar.gz
 e99c32b497d808875b91eeee383c3db3960837ab  veles-0.17.1-macOS-amd64.dmg
