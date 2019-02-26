@@ -1,86 +1,103 @@
-Bitcoin Core version 0.17.x is now available from:
+Veles Core version 0.17.1 is now available.
 
-  <https://bitcoincore.org/bin/bitcoin-core-0.17.x/>
+  <https://github.com/velescore/veles/releases/tag/v0.17.1/>
 
-This is a new minor version release, including new features, various bugfixes
-and performance improvements, as well as updated translations.
+This is a new minor version release, with various bugfixes
+as well as updated packaging and UI.
 
 Please report bugs using the issue tracker at GitHub:
 
-  <https://github.com/bitcoin/bitcoin/issues>
-
-To receive security and update notifications, please subscribe to:
-
-  <https://bitcoincore.org/en/list/announcements/join/>
+  <https://github.com/velescore/veles/issues>
 
 How to Upgrade
 ==============
 
 If you are running an older version, shut it down. Wait until it has completely
 shut down (which might take a few minutes for older versions), then run the
-installer (on Windows) or just copy over `/Applications/Bitcoin-Qt` (on Mac)
-or `bitcoind`/`bitcoin-qt` (on Linux).
-
-If your node has a txindex, the txindex db will be migrated the first time you
-run 0.17.0 or newer, which may take up to a few hours. Your node will not be
-functional until this migration completes.
-
-The first time you run version 0.15.0 or newer, your chainstate database will be converted to a
-new format, which will take anywhere from a few minutes to half an hour,
-depending on the speed of your machine.
-
-Note that the block database format also changed in version 0.8.0 and there is no
-automatic upgrade code from before version 0.8 to version 0.15.0. Upgrading
-directly from 0.7.x and earlier without redownloading the blockchain is not supported.
-However, as usual, old wallet versions are still supported.
+installer (on Windows) or just copy over `/Applications/Veles-Qt` (on Mac)
+or `Velesd`/`Veles-qt` (on Linux).
 
 Downgrading warning
 -------------------
 
-The chainstate database for this release is not compatible with previous
-releases, so if you run 0.15 and then decide to switch back to any
-older version, you will need to run the old release with the `-reindex-chainstate`
-option to rebuild the chainstate data structures in the old format.
-
-If your node has pruning enabled, this will entail re-downloading and
-processing the entire blockchain.
+Wallets created in 0.16 and later are not compatible with versions prior to 0.16
+and will not work if you try to use newly created wallets in older versions. Existing
+wallets that were created with older versions are not affected by this. This might
+be useful only for exporting of old private keys, as wallets of version v0.17.0.20
+and older are not compatible with the current chain anymore.
 
 Compatibility
 ==============
 
-Bitcoin Core is extensively tested on multiple operating systems using
-the Linux kernel, macOS 10.10+, and Windows 7 and newer (Windows XP is not supported).
+Veles Core is extensively tested on multiple operating systems using
+the Linux kernel, macOS 10.8+, and Windows Vista and later. Windows XP is not supported.
 
-Bitcoin Core should also work on most other Unix-like systems but is not
+Veles Core should also work on most other Unix-like systems but is not
 frequently tested on them.
 
-From 0.17.0 onwards macOS <10.10 is no longer supported. 0.17.0 is built using Qt 5.9.x, which doesn't
-support versions of macOS older than 10.10.
+0.17.1 change log
+------------------
 
-Notable changes
-===============
+### Masternodes
+- b7b6848fe - Port masternode.conf docs from Dash Core
+- ad220b45f - MN: Workaround for bug #21 with start-alias
+- 13ce5c40d - MN: Fix issue #24 with collateral output lock
+- 133d03cbf - MN: Corrected port number in masternode.conf template
+- 56571e43f - MN: Fix issue #22 with masternode.conf not loading
 
-Documentation
--------------
+### GUI
+- 9029d1bce - Qt: Add alternate splash, improve layout and rendering
+- ac9b833a4 - Improve Qt wallet splash screen rendering
+- b1c84f9e7 - Qt: Removed references to unused image resources
+- 6f07dfa27 - Move source files of image resources to separate folder
+- 1cf8422af - Update all icons sets and image resources.
+- 020f47fb9 - Qt: Fixed missing image resources
 
-- A new document introduces Bitcoin Core's BIP174
-  [Partially-Signed Bitcoin Transactions (PSBT)](https://github.com/bitcoin/bitcoin/blob/0.17/doc/psbt.md)
-  interface, which is used to allow multiple programs to collaboratively
-  work to create, sign, and broadcast new transactions.  This is useful
-  for offline (cold storage) wallets, multisig wallets, coinjoin
-  implementations, and many other cases where two or more programs need
-  to interact to generate a complete transaction.
+### Build system
+- 050c48850 - Fix package tarname in configure.ac (in AC_INIT)
+- e59947a34 - Updated Windows NSIS installer script
 
-0.17.x change log
-=================
+### Tests and QA
+- 04dbca9c5 - Travis: Updated config to match change of PACKAGE_TARNAME
+- 46a0c4556 - Travis: Fixes for correct Travis-CI integration
+- c380debb5 - Tests: Added linter support for alternate include guards
+- 2db0cc9cc - Merge: [Tests]: Ported Travis-CI compatibility fixes from fxtc/0.17
+- 89c994bb7 - Tests: Removed deprecated block testing utility
+- d0ec34743 - Tests: Add an exception into lint-locale-dependence
 
-(todo)
+### Documentation
+- 59c920a92 - Update UNIX manual pages
+- 48e06a062 - Removed irrelevant release notes
+- 8b24b2276 - fix docs (#1404)
+- 18e179232 - Updated copyright messages
+- 60ee2d178 - Docs: Update contributig guidelines, add Discord link
+- bf9b0e724 - Docs: Update GitHub issue template
+- e27209642 - Merge#20: [Docs]: Correct branding, remove trailing whitespaces
+- d45d27947 - Docs: Corrected branding and coin name in all the docs Also removed traling whitespaces for Travis not to fail.
+- 32434a72c - Docs: Rewritten README file, added badges. Changed instructions on howto pull latest stable code from GitHub, ported Development Proccess section from Bitcoin Core, updated description of the repository, and added brand new badges.
+
+### Miscellaneous
+- c05fb8804 - Support for version codename constant
+- dabecfc95 - Script: Removed masternode.sh, been moved to separate repo The masternode installer script is now maintained in separate repository velescore/masternode-installer
+
 
 Credits
 =======
 
 Thanks to everyone who directly contributed to this release:
 
-(todo)
+- AltcoinBaggins
+- Veles Core
+- UdjinM6
 
-As well as everyone that helped translating on [Transifex](https://www.transifex.com/projects/p/bitcoin/).
+
+And to those that reported relevant bugs / issues:
+
+- xCryptoCash
+- SpektralFeniks
+- thomas
+- Johnny
+- mdfkbtc
+- Virtuado
+
+As well as everyone that helped to improve Veles Core with their suggestions at [Veles Discord](https://discord.gg/rXgH6Qn).
