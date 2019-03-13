@@ -5,4 +5,4 @@ Priority: optional
 Section: util
 Description: Veles Core Qt desktop client.
 Version: 0.17.1rc3
-Architecture: armhf
+Architecture: amd64
