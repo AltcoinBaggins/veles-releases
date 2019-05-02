@@ -5,4 +5,4 @@ Priority: optional
 Section: util
 Description: Veles Core TX utility
 Version: 0.17.1.1
-Architecture: armhf
+Architecture: amd64
