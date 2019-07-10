@@ -14,3 +14,5 @@ ef9aecad75d17db0c13f9026a7000cdd632973ff  veles-0.17.1.1-macOS-amd64.dmg
 f47da43128a68cb3488fdb0fbdd4c70e93d7078d  veles-0.17.1.1-windows-win64.exe
 6c35ebf2968daca1cb595cf3fb57c7f5f2db5d0b  veles-0.18.0-debian-ubuntu-amd64.tar.gz
 2c9e1d043c177cec66e1f1f94fb35bb967bebca3  veles-0.18.0-generic-linux-amd64.tar.gz
+eb50ed3453983b195b3e0b8e4385d30ef1d6e7d8  veles-0.18.0-generic-linux-armhf.tar.gz
+abfeb567d7b39b7873959e354fb17bd3a3f1f363  veles-0.18.0-raspbian-armhf.tar.gz
