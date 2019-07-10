@@ -5,5 +5,5 @@ Priority: optional
 Section: util
 Description: Veles Core daemon and GUI
 Depends: velesd, veles-qt
-Version: 0.17.1.1
-Architecture: armhf
+Version: 0.18.0
+Architecture: amd64

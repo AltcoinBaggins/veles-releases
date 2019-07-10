@@ -4,5 +4,5 @@ Maintainer: Altcoin Baggins <velesdevs@protonmail.com>
 Priority: optional
 Section: util
 Description: Veles Core TX utility
-Version: 0.17.1.1
-Architecture: armhf
+Version: 0.18.0
+Architecture: amd64
