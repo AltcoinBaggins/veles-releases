@@ -4,5 +4,5 @@ Maintainer: Altcoin Baggins <velesdevs@protonmail.com>
 Priority: optional
 Section: util
 Description: Veles Core Qt desktop client.
-Version: 0.18.0
-Architecture: armhf
+Version: 0.18.1
+Architecture: amd64
