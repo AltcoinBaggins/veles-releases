@@ -4,5 +4,5 @@ Maintainer: Altcoin Baggins <velesdevs@protonmail.com>
 Priority: optional
 Section: util
 Description: Veles Core daemon and commandline client.
-Version: 0.18.1
-Architecture: armhf
+Version: 0.18.1.2
+Architecture: amd64
