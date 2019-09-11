@@ -6,3 +6,5 @@ afd1288f572c8a9df0d2e270d7c84111  veles-0.18.1-windows-win32.exe
 ebf02eb714f4bd19252aaa160e763152  veles-0.18.1-windows-win64.exe
 306a640fc888e12c27934701e5ec2b8a  veles-0.18.1.2-debian-ubuntu-amd64.tar.gz
 bdbca044e0057cfdc6e6a437bf947857  veles-0.18.1.2-generic-linux-amd64.tar.gz
+6ded319d59fc87f94b054470860f7cdb  veles-0.18.1.2-generic-linux-armhf.tar.gz
+adefb0117c79091c94d4e570073314f1  veles-0.18.1.2-raspbian-armhf.tar.gz
